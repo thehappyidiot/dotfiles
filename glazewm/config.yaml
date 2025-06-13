@@ -146,6 +146,8 @@ workspaces:
     keep_alive: true
 
   - name: '5'
+    display_name: "5. Explorer"
+    bind_to_monitor: 1
   - name: '6'
   - name: '7'
 
@@ -188,11 +190,15 @@ window_rules:
   # Move Development Tools to workspace 3:
   - commands: ['move --workspace 3']
     match:
-      - window_process: { regex: "Cursor|Code"}
+      - window_process: { regex: "Cursor|Code|webstorm64|idea64"}
   # Move Modeler to workspace 4:
   - commands: ['move --workspace 4']
     match:
       - window_title: { regex: ".*ACTICO Modeler"}
+  # Move Explorer to workspace 5:
+  - commands: ['move --workspace 5']
+    match:
+      - window_process: {regex: "Files|explorer"}
   # Move Spotify to workspace 8:
   - commands: ['move --workspace 8']
     match:
