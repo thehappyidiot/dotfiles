@@ -1,0 +1,1 @@
+/home/thehappyidiot/.config/omarchy/current/theme/neovim.lua
