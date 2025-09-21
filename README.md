@@ -6,7 +6,3 @@ Setup
 ```bash
 stow hypr waybar
 ```
-
-```
-```
-```
