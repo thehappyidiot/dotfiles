@@ -8,6 +8,8 @@ export PATH=$PATH:$HOME/go/bin
 
 # Make an alias for invoking commands you use constantly
 alias please='sudo'
+alias tree='tree -a'
+alias ls='ls -a'
 #
 # Use VSCode instead of neovim as your default editor
 export EDITOR="code-oss"
