@@ -1,7 +1,6 @@
 -- Workspace rules.
--- See https://wiki.hypr.land/Configuring/Workspace-Rules/
-
-hl.workspace_rule({ workspace = "10", default = true, persistent = true, default_name = "0: Reference" })
+-- See https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
+hl.workspace_rule({ workspace = "10", default = true, persistent = true, default_name = "0: Ref" })
 hl.workspace_rule({ workspace = "1", monitor = "DP-3", persistent = true, default_name = "1: 🌐" })
 hl.workspace_rule({ workspace = "2", monitor = "DP-3", persistent = true, default_name = "2: 👨‍💻" })
 hl.workspace_rule({ workspace = "3", monitor = "DP-3", default = true, persistent = true, default_name = "3: Develop" })
